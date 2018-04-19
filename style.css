@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(242, 226, 185);
+}
+
+h1 .introduction{
+  font-family: cursive;
+  font-size: 18px;
+  opacity: 1;
+  align-self: center;
+}
+
+img .MeAndMom{
+  transform: rotate(180deg);
+  border-radius: 550px;
+}
