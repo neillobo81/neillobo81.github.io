@@ -5,11 +5,16 @@ body{
 h1 .introduction{
   font-family: cursive;
   font-size: 18px;
-  opacity: 1;
-  align-self: center;
+  text-align: center;
 }
 
 img .MeAndMom{
-  transform: rotate(180deg);
-  border-radius: 550px;
+  transform: rotate(90deg);
+  /*border-radius: 550px;
+  position: relative;
+  left: 1150px;*/
+}
+
+p{
+  font-size: 20px;
 }
