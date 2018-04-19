@@ -2,18 +2,24 @@ body{
   background-color: rgb(242, 226, 185);
 }
 
-h1 .introduction{
-  font-family: cursive;
-  font-size: 18px;
+h1.Introduction{
+  font-family: Helvetica;
+  font-size: 25px;
+  margin-top: 55px;
+  color:grey;
+  font-weight: .1;
   text-align: center;
 }
 
-img .MeAndMom{
-  transform: rotate(90deg);
-  /*border-radius: 550px;
+img.MeAndMom {
+  transform: rotate(180deg);
+  border: 8px solid white;
+  border-radius: 15px;
   position: relative;
-  left: 1150px;*/
+  left: 550px;
 }
+
+
 
 p{
   font-size: 20px;
