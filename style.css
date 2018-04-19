@@ -1,9 +1,9 @@
 body{
-  background-color: rgb(242, 226, 185);
+
 }
 
 h1.Introduction{
-  font-family: Helvetica;
+  font-family: Georgia;
   font-size: 25px;
   margin-top: 55px;
   color:grey;
@@ -11,16 +11,53 @@ h1.Introduction{
   text-align: center;
 }
 
-img.MeAndMom {
-  transform: rotate(180deg);
-  border: 8px solid white;
-  border-radius: 15px;
-  position: relative;
-  left: 550px;
+div.MeAndMomBackground{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(30deg, rgb(182, 226, 234), rgb(182, 226, 234) 40%, white ) ;
 }
 
+div.MeAndMomBackground img.MeAndMom{
+  transform: rotate(180deg);
+  border: 8px solid rgb(237, 237, 237);
+  border-radius: 15px;
+  margin-top: 15px;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 55px;
+}
 
+div.MeAndMomBackground div#NameAndSchool  {
+  font-family: Georgia;
+  margin-left: 350px;
+  display: inline-block;
+}
+
+div.menu{
+  margin-top: 5px;
+  background-color: rgb(36, 36, 131);
+}
+
+div.menu ul.choices{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+div.menu ul.choices li{
+  margin: 15px 25px;
+  display:inline-block;
+  color: white;
+}
+
+div.menu ul.choices li#furthestLeft{
+  margin-left: 35px;
+}
 
 p{
   font-size: 20px;
+}
+p.AboutMePara{
+  font-style: "ComicSansMS";
+  position:
 }
