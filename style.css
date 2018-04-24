@@ -47,10 +47,34 @@ div.menu ul.choices{
 div.menu ul.choices li{
   margin: 15px 25px;
   display:inline-block;
+}
+
+div.menu ul.choices li a:link{
   color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.menu ul.choices li a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.menu ul.choices li a:active{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.menu ul.choices li a:hover{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 div.menu ul.choices li#furthestLeft{
+  color:white;
   margin-left: 35px;
 }
 
