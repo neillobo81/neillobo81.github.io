@@ -28,7 +28,6 @@ div.MeAndMomBackground{
 The picture is rotated 180 degress and the border is white
 */
 div.MeAndMomBackground img.MeAndMom{
-  /*transform: rotate(180deg);*/
   border: 8px solid rgb(237, 237, 237);
   border-radius: 15px;
   margin-top: 15px;
