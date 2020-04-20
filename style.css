@@ -1,18 +1,7 @@
-body{
-
+* {
+  font-family: "Open Sans", sans-serif;
 }
 
-/*
-The introduction header has these fonts and is aligned in the center
-*/
-h1.Introduction{
-  font-family: Georgia;
-  font-size: 25px;
-  margin-top: 55px;
-  color:grey;
-  font-weight: .1;
-  text-align: center;
-}
 
 /*
 Having  a background for the picture and colouring in fashionably
@@ -45,9 +34,14 @@ div.MeAndMomBackground div#NameAndSchool  {
   display: inline-block;
 }
 
+div#NameAndSchool p{
+  color: #37383b;
+}
+
 div.menu{
   margin-top: 5px;
   background-color: rgb(36, 36, 131);
+  
 }
 
 div.menu ul.choices{
@@ -89,9 +83,36 @@ div.menu ul.choices li a:hover{
   text-decoration: none;
 }
 
-div.menu ul.choices li#furthestLeft{
+div.menu ul.choices li{
   color:white;
   margin-left: 35px;
+}
+
+
+
+.body_of_page{
+  align-items: center;
+  background: linear-gradient(to right bottom, #272829, #37383b, #272829);
+  margin:0px;
+  padding: 15px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  height: 100vh;
+}
+
+/*
+The introduction header has these fonts and is aligned in the center
+*/
+h1.Introduction{
+  font-size: 25px;
+  color: #eee;
+  margin-top: 55px;
+  font-weight: .1;
+  text-align: center;
+}
+
+h3.AboutMe{
+  color: #eee;
 }
 
 /*
@@ -99,6 +120,7 @@ All paragraphs
 */
 p{
   font-size: 20px;
+  color: #eee;
 }
 p.AboutMePara{
   font-style: "ComicSansMS";
